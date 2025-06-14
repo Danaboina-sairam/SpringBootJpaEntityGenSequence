@@ -15,14 +15,6 @@ public class UserDetailsController {
     @GetMapping(path="/getUser")
     public UserDetails getUser(){
         UserDetails userDetails=new UserDetails("sairam","sairam8276@gmail.com");
-        userDetailsService.saveUser(userDetails);
-        UserDetails output1=userDetailsService.getUser(1l);
-        return output1;
-    }
-
-    @GetMapping(path="/getUser2")
-    public UserDetails getUser2(){
-        UserDetails output1=userDetailsService.getUser(1l);
-        return output1;
+        return userDetailsService.saveUser(userDetails);
     }
 }
