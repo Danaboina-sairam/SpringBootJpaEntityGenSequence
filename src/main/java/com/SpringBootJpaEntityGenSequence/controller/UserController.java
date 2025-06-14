@@ -16,7 +16,7 @@ public class UserController {
     public User getUser(){
         User user=new User("sairam","sairam8276@gmail.com");
         userService.saveUser(user);
-        User output1=userService.getUser(1l);
+        User output1=userService.getUser(100l);
         return output1;
     }
 
