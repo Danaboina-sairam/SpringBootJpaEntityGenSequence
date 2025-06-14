@@ -1,0 +1,2 @@
+# SpringBootJpaEntityGenSequence
+SpringBootJpaEntityGenSequence
